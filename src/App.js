@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./cmp/login";
+import Signup from "./cmp/signup";
+import Dashboard from "./cmp/dashboard";
+import 'material-icons/iconfont/material-icons.css';
+const App = ()=>{
+  const design = (
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Signup />} />
+      <Route path="/login" element={<Login />}/>
+      <Route path="/dashboard" element={<Dashboard />} >
+        <Route path="blog" element={<h1>welcome to blog page</h1>} />
+      </Route>
+    </Routes>
+    </BrowserRouter>
   );
+  return design;
 }
-
 export default App;

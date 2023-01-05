@@ -1,0 +1,54 @@
+[
+  {
+    "id":1,
+    "cat":"ProductMenu",
+    "promenu":[
+      {
+        "id":2,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":3,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":4,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":5,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      }
+    ]
+  },
+  {
+    "id":6,
+    "cat":"Chats",
+    "promenu":[
+      {
+        "id":7,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":8,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":9,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      },
+      {
+        "id":10,
+        "primary":"Charwales",
+        "secondary":"this is a product name"
+      }
+    ]
+  }
+]
